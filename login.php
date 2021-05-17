@@ -30,7 +30,7 @@
                     <label class="block text-white text-sm font-bold mb-2" for="wachtwoord">
                         Wachtwoord
                     </label>
-                    <input class="shadow appearance-none border border-red rounded w-full py-2 px-3 text-grey-darker mb-3" id="wachtwoord" name="wachtwoord" type="wachtwoord" placeholder="************">
+                    <input class="shadow appearance-none border border-red rounded w-full py-2 px-3 text-grey-darker mb-3" id="wachtwoord" name="wachtwoord" type="password" placeholder="************">
                     <p class="text-red-500 text-xs italic hidden">Vul je wachtwoord in.</p>
                 </div>
                 <div class="flex items-center justify-between">

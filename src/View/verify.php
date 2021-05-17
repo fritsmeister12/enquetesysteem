@@ -15,60 +15,12 @@
 </head>
 
 <body class="bg">
-    <form action="src/Controller/RegisterController.php" method="post">
-        <div class="grid min-h-screen place-items-center">
-            <div class="w-11/12 p-12 bg-white sm:w-8/12 md:w-1/2 lg:w-5/12 shadow-md">
-                <h1 class="text-xl font-semibold">Hallo daar 👋, <span class="font-normal">vul hier jou gegevens in om verder te gaan!</span></h1>
-                <form class="mt-8" action="src/Controller/RegisterController.php" method="post">
-                <div class="flex justify-between mt-2 gap-3">
-                    <span class="w-1/3">
-                    <label for="studentnummer" class="block text-xs font-semibold text-gray-600 uppercase">Studentnummer</label>
-                    <input id="studentnummer" type="number" min="80000" max="90000" name="studentnummer" placeholder="83238" autocomplete="studentnummer" class="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
-                    </span>
-                    <span class="w-1/3">
-                    <label for="klas" class="block text-xs font-semibold text-gray-600 uppercase">Klas</label>
-                    <input id="klas" type="text" name="klas" placeholder="I3E" autocomplete="klas" class="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
-                    </span>
-                    <span class="w-1/3">
-                    <label for="leeftijd" class="block text-xs font-semibold text-gray-600 uppercase">Leeftijd</label>
-                    <input id="leeftijd" type="number" name="leeftijd" placeholder="18" min="14" max="70" autocomplete="leeftijd" class="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
-                    </span>
-                </div>
-                <div class="flex justify-between mt-2 gap-3">
-                    <span class="w-1/2">
-                    <label for="voornaam" class="block text-xs font-semibold text-gray-600 uppercase">Voornaam</label>
-                    <input id="voornaam" type="text" name="voornaam" placeholder="Pietje" autocomplete="voornaam" class="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
-                    </span>
-                    <span class="w-1/2">
-                    <label for="achternaam" class="block text-xs font-semibold text-gray-600 uppercase">Achternaam</label>
-                    <input id="achternaam" type="text" name="achternaam" placeholder="Puk" autocomplete="achternaam" class="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
-                    </span>
-                </div>
-                <div class="flex justify-between mt-2 gap-3">
-                    <span class="w-1/3">
-                    <label for="adres" class="block text-xs font-semibold text-gray-600 uppercase">Adres</label>
-                    <input id="adres" type="text" name="adres" placeholder="Heer Bokelweg 255" autocomplete="adres" class="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
-                    </span>
-                    <span class="w-1/3">
-                    <label for="postcode" class="block text-xs font-semibold text-gray-600 uppercase">Postcode</label>
-                    <input id="postcode" type="text" name="postcode" placeholder="3032AD" autocomplete="postcode" class="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
-                    </span>
-                    <span class="w-1/3">
-                    <label for="woonplaats" class="block text-xs font-semibold text-gray-600 uppercase">Woonplaats</label>
-                    <input id="woonplaats" type="text" name="woonplaats" placeholder="Rotterdam" autocomplete="woonplaats" class="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
-                    </span>
-                </div>
-                <label for="email" class="block mt-2 text-xs font-semibold text-gray-600 uppercase">E-mail</label>
-                <input id="email" type="email" name="email" placeholder="83238@glr.nl" autocomplete="email" class="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
-                <label for="wachtwoord" class="block mt-2 text-xs font-semibold text-gray-600 uppercase">Wachtwoord</label>
-                <input id="wachtwoord" type="password" name="wachtwoord" placeholder="********" autocomplete="wachtwoord" class="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
-                <button type="submit" class="w-full py-3 mt-6 font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
-                    Aanmelden
-                </button>
-                <a href="login.php" class="flex justify-between inline-block mt-4 text-xs text-gray-500 cursor-pointer hover:text-black">Al geregistreerd?</a>
-                </form>
-            </div>
+    <div class="grid min-h-screen place-items-center">
+        <div class="w-11/12 p-12 bg-white sm:w-8/12 md:w-1/2 lg:w-5/12 shadow-md">
+            <h1 class="text-xl font-semibold">Welkom terug 👋, <span class="font-normal">check je mail!</span></h1>
+            <p class="mt-2 text-lg">Er is een mail verzonden ter verificatie!</p>
         </div>
+    </div>
 </body>
 
 </html>
